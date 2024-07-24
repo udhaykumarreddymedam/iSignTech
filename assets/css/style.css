@@ -824,6 +824,12 @@ section {
   transition: 0.3s;
 }
 
+.client-img{
+  width: 180px;
+  height: 100px;
+  padding: 10px;
+}
+
 .clients .swiper-slide img:hover {
   opacity: 1;
 }
@@ -1340,7 +1346,8 @@ section {
 
 .contact .info .email:hover i,
 .contact .info .address:hover i,
-.contact .info .phone:hover i {
+.contact .info .phone:hover i,
+.contact .info .hours:hover i {
   background: #5cb874;
   color: #fff;
 }
